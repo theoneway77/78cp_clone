@@ -1,4 +1,3 @@
 78cp_clone is a stand alone gang-duplicator for SD cards, entirely is bash script.  It is built and tested on and for a Raspberry Pi.
 
-
-
+As soon as there is a stable version, I will release an image file that you can transfer to an SD card.  
