@@ -1,0 +1,18 @@
+
+0+1 records in
+0+1 records out
+0+1 records in
+0+1 records out
+35 bytes (35 B) copied, 0.00103597 s, 33.8 kB/s
+0+1 records in
+0+1 records out
+35 bytes (35 B) copied, 0.000666979 s, 52.5 kB/s
+0+1 records in
+0+1 records out
+35 bytes (35 B) copied, 0.0117596 s, 3.0 kB/s
+0+1 records in
+0+1 records out
+35 bytes (35 B) copied, 0.0160815 s, 2.2 kB/s
+0+1 records in
+0+1 records out
+35 bytes (35 B) copied, 0.030174 s, 1.2 kB/s
