@@ -13,16 +13,17 @@ date >> errlog.txt
 set `grep -iw "copied" err.txt`
 
 #Check if $1 is a number. If so, then check if all file tranfer sizes are the same.  
-if [[ $1 != [0-9]* ]]
+
+if [ `expr $1 + 1 2> /dev/null` ]
   then
-  echo "variable 1 is not a number!"
+    if [ $1 -eq ${10} -a ${10} = ${19} -a ${19} = ${28} -a ${28} = ${37} ]
+        then 
+                echo "Duplication Great Success!"
+        else
+                echo "there may have been a problem with the transfer. Please check your media."
+        fi
   else
-	if [ $1 -eq ${10} -a ${10} = ${19} -a ${19} = ${28} -a ${28} = ${37} ]
-	then 
-		echo "Duplication Great Success!"
-	else
-		echo "there may have been a problem with the transfer. Please check your media."
-	fi
+    echo "variable 1 is not a number!"
 fi
 
 #Paste the contents of err.txt into errlog.txt. 
